@@ -1,0 +1,26 @@
+/* General Body Styles */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom Font for Headings */
+.font-playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Hero Section Background */
+.hero-section {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://placehold.co/1920x1080/000000/FFFFFF?text=Himalayan+Vista');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Card Hover Effect */
+.card-hover-effect {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card-hover-effect:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
